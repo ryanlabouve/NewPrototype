@@ -8,6 +8,7 @@ echo "Rearrange some things"
 mv tmp/index.html views/layout.erb
 
 echo "Move the rest of everything"
+mkdir public
 mv tmp/* public/
 
 echo "Delete tmp folder"
