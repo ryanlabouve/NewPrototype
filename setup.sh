@@ -13,4 +13,9 @@ mv tmp/* .
 echo "Delete tmp folder"
 rm -rf tmp/
 
+echo "Delete startup script"
+rm setup.sh
+
+echo "Don't forget to add a yield statement to your layout!"
+
 exit 0
